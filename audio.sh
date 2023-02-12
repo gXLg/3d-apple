@@ -1,0 +1,1 @@
+ffmpeg -i original.mp4 -i output.mp4 -map 0:a -map 1:v -c:v copy final.mp4
